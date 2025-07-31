@@ -20,16 +20,25 @@ A machine learning project to classify loan applicants into Low, Medium, or High
 MLOPS_LAST
 
 ├── Scripts/             # All core Python scripts
+
 │   ├── app.py                 # Streamlit-based UI for model inference
+
 │   ├── helper_functions.py    # Logging and utility functions
+
 │   ├── data_processing.py     # Feature engineering & preprocessing
+
 │   ├── ml_functions.py        # Model training, evaluation, prediction functions
+
 │   └── main.py 
 
 ├── Data/                # Raw, processed, and output files
+
 ├── Artifacts/           # Trained model & pipeline objects
+
 ├── Logs/                # Runtime logs
+
 ├── requirements.txt     # Python dependencies
+
 └── README.md
 
 🛠️ How to Run
