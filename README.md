@@ -1,5 +1,7 @@
 🏦 Loan Risk Categorization - MLOps Project
+
 📌 Overview
+
 A machine learning project to classify loan applicants into Low, Medium, or High risk categories using XGBoost. It features a clean Streamlit UI, automated data processing, and modular design built with MLOps best practices.
 
 🚀 Features
@@ -14,13 +16,16 @@ A machine learning project to classify loan applicants into Low, Medium, or High
 ✅ Ready for CI/CD and cloud deployment
 
 📁 Structure
+
 MLOPS_LAST
+
 ├── Scripts/             # All core Python scripts
 │   ├── app.py                 # Streamlit-based UI for model inference
 │   ├── helper_functions.py    # Logging and utility functions
 │   ├── data_processing.py     # Feature engineering & preprocessing
 │   ├── ml_functions.py        # Model training, evaluation, prediction functions
 │   └── main.py 
+
 ├── Data/                # Raw, processed, and output files
 ├── Artifacts/           # Trained model & pipeline objects
 ├── Logs/                # Runtime logs
@@ -28,18 +33,27 @@ MLOPS_LAST
 └── README.md
 
 🛠️ How to Run
+
 # Setup
+
 git clone https://github.com/Lavanya-hue/MLOPS_LAST.git
+
 cd MLOPS_LAST
+
 python -m venv venv && source venv/bin/activate  # or venv\Scripts\activate on Windows
+
 pip install -r requirements.txt
 
 # Train model
+
 python Scripts/main.py
 
 # Launch UI
+
 streamlit run Scripts/app.py
 
 👤 Author
+
 Lavanya – https://github.com/Lavanya-hue/MLOPS_LAST
+
 📄 Licensed under MIT License
